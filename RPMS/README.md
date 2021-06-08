@@ -7,4 +7,4 @@ Remember to replace these RPMs with official ones ASAP (i.e. there is a fix for 
 
 This command *should* reinstall the official one:
 
-    pkcon install --allow-downgrade --allow-reinstall sailfish-utilities
+    pkcon refresh && pkcon install --allow-downgrade --allow-reinstall sailfish-utilities
